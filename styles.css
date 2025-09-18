@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root{
   --bg:#f7fafc;
   --muted:#6b7280;
@@ -28,4 +29,36 @@ h2{margin:.25rem 0 1rem;font-size:1.25rem}
 @media (max-width:600px){
   .site-header{padding:1.25rem 0}
   .container{padding:.75rem}
+=======
+:root{
+  --bg:#f7fafc;
+  --muted:#6b7280;
+  --accent:#0b84ff;
+  --card:#ffffff;
+  --max:1000px;
+  --radius:12px;
+}
+*{box-sizing:border-box}
+body{
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+  margin:0;background:var(--bg);color:#0f1724;line-height:1.45;
+}
+.container{max-width:var(--max);margin:0 auto;padding:1.25rem}
+.site-header{background:#0f1724;color:#fff;padding:2rem 0}
+.site-header h1{margin:0;font-size:1.5rem}
+.site-header .subtitle{opacity:.9;margin:.25rem 0}
+.nav a{color:inherit;margin-right:1rem;text-decoration:none;font-weight:600}
+.section{padding:2rem 0}
+h2{margin:.25rem 0 1rem;font-size:1.25rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.card{background:var(--card);padding:1rem;border-radius:var(--radius);box-shadow:0 6px 18px rgba(15,23,36,0.06)}
+.card h3{margin:.25rem 0}
+.tech{font-size:.85rem;color:var(--muted)}
+.actions a{text-decoration:none;color:var(--accent);font-weight:600}
+.about p{max-width:60ch}
+.site-footer{padding:1rem 0;border-top:1px solid #e6e9ef;background:transparent}
+@media (max-width:600px){
+  .site-header{padding:1.25rem 0}
+  .container{padding:.75rem}
+>>>>>>> 8fac4e3084617a7b0ec4165e44367830a87b2d79
 }
