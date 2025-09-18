@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Software Engineer</title>
+  <meta name="description" content="Portfolio of Your Name — software engineer. Projects in React, Node, ML..." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Your Name</h1>
+      <p class="subtitle">Software engineer — full-stack, distributed systems</p>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects" class="container section">
+      <h2>Selected projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p class="desc">Short 1–2 sentence description showing the problem and your contribution.</p>
+          <p class="tech">React · Node · PostgreSQL</p>
+          <p class="actions">
+            <a href="https://github.com/yourname/project-one" target="_blank" rel="noopener">Code</a>
+            <span> · </span>
+            <a href="https://live-demo.example" target="_blank" rel="noopener">Live</a>
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Project Two</h3>
+          <p class="desc">Another clear summary — what it does, metrics if you have them.</p>
+          <p class="tech">Python · Flask · Docker</p>
+          <p class="actions">
+            <a href="https://github.com/yourname/project-two" target="_blank" rel="noopener">Code</a>
+          </p>
+        </article>
+
+        <!-- Add more project cards here -->
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>Concise paragraph (3–5 lines) focusing on what you build, your strengths, and what you’re looking for.</p>
+      <p><strong>Tech:</strong> JavaScript, TypeScript, React, Node.js, SQL, Docker, AWS</p>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>Resume: <a href="resume.pdf" download>Download PDF</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Your Name — <a href="https://github.com/yourname" target="_blank" rel="noopener">GitHub</a></div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
